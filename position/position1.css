@@ -1,0 +1,43 @@
+.child1
+{
+    /* border-style: solid; */
+    background-color: rgb(0, 255, 76);   
+    padding: 3px;
+    position: relative; /*after using relative then left*/
+    left: 100px;
+    top: 150px;
+
+}
+.child2
+{
+    /* border-style: dotted; */
+    background-color: rgb(197, 34, 34);
+    padding: 3px;
+    position: absolute;
+    top: 30px;
+}
+.child3
+{
+    /* border-style: dashed; */
+    background-color: rgb(245, 147, 163);
+    padding: 3px;
+    position: fixed;
+    right: 100px;
+
+}
+.child4
+{
+    /* border-style: solid; */
+    background-color: blueviolet;
+    padding: 3px;
+    position: sticky;
+    top: 100px;
+    text-align: center;
+}
+.parent
+{
+    /* border-style: solid; */
+    background-color: skyblue;
+    padding: 5px;
+    height: 5000px;
+}
