@@ -3,3 +3,7 @@
 3.flat icon
 4.google fonts
 5.font awesome
+6.remove.bg
+7.css gradiant
+8.glass morphism
+9.lottifies animation

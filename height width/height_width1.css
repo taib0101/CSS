@@ -1,0 +1,60 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background: rgb(220,228,191);
+    background: radial-gradient(circle, rgba(220,228,191,1) 0%, rgba(18,104,187,1) 99%);
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+#top_parent
+{
+    display: grid;
+}
+#grand_parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid red;
+    height: 60vh;
+    overflow: auto;
+    /* if height overlap, use overflow */
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    /* to hidden overlaped after it shown scrollbar,
+       for hidding this scroll,use line 28,29 
+    */
+}
+#gparent
+{
+    display: grid;
+    max-width: 400px;
+    border: solid brown;
+    margin-right: 10px;
+    height: max-content;
+}
+#box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#grand_parent1
+{
+    border: solid blue;
+    height: 50vh;
+    display: grid;
+}
+#gparent1
+{
+    border: solid sienna;
+    display: flex;
+    max-width: 400px;
+}

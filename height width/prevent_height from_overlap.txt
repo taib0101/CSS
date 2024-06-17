@@ -1,0 +1,7 @@
+overflow: auto;
+/* if height overlap, use overflow */
+-ms-overflow-style: none;
+scrollbar-width: none; 
+/* to hidden overlaped after it shown scrollbar,
+   for hidding this scroll,use line 28,29 
+*/
