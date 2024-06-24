@@ -6,6 +6,7 @@ in css
 
 in js
 const nav_icon = document.getElementById("nav3_icon");
+event.preventDefault();
 nav_icon.addEventLisnter("click" , (event) => {
    const nav4 = document.getElementById("nav4");
    nav4.classList.toggle("opened");
