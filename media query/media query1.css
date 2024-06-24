@@ -1,0 +1,81 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    list-style-type: none;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 40px;
+    background-color: #0a2351;
+}
+
+#header #nav3
+{
+    display: none;
+}
+#header #nav1
+{
+    padding: 0 6%;
+}
+#header #nav2 a
+{
+    margin: 20px;
+}
+#header #nav2 a:nth-child(4)
+{
+    margin: 0 0;
+}
+#header #nav2
+{
+    padding: 0 6%;
+}
+
+#header #nav4 
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30px;
+    right: -1000px;
+    background-color: #0a2351;
+    height: 160px;
+    width: 200px;
+    justify-content: center;
+    /* align-content: space-between; */
+}
+/* #header #nav4.opened
+{
+    right: 0px;
+} */
+/* use <ul> <li> tag for responsive navbar */
+#header #nav4 ul li
+{
+    margin: 20px 0;
+}
+
+@media(max-width: 500px)
+{
+    #header #nav3
+    {
+        display: flex;
+        padding: 0 6%;
+    }
+    #header #nav2
+    {
+        display: none;
+    }
+}

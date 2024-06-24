@@ -1,0 +1,136 @@
+/* fixed */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    height: 300px;
+    background-color: gold;
+}
+/* changable */
+.header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    padding:0 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* for making header fixed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-top: 10px;
+}
+.header a
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.nav a
+{
+    margin-right: 40px;
+}
+.nav a:hover,
+.nav .active,
+.header .logo
+{
+    color: #00d4ff;
+}
+.section
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 0 5%;
+}
+/* if you flex parent ,content of child
+will automatic flexible
+*/
+.section1
+{
+    display: grid;
+    /* border: solid green; */
+}
+.contain
+{
+    display: grid;
+    height: max-content;
+    width: 100%;
+    max-width: 400px;
+    /* find the problem why are they changed at a time */
+    /* border: solid; */
+}
+.contain h1
+{
+    font-size: 50px;
+    color: azure;
+}
+.contain h3
+{
+    color:rgb(50, 181, 233)
+}
+.contain p
+{
+    color: azure;
+    /* padding-bottom: 30px; */
+}
+.contain1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 25px;
+    /* border: solid gold; */
+}
+.contain1 a 
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid aqua;
+    margin-right: 50px;
+    box-shadow: 2px 4px 4px grey;
+    /* new learned */
+}
+
+
+.section2 img
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 90%;
+}
+
+#about
+{
+    height: 100vh;
+}
+html
+{
+    scroll-behavior: smooth;
+    /* new learned */
+}

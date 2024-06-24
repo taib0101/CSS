@@ -1,0 +1,4 @@
+block-level = start on a new line . take full width
+(h1-h6,div,p,header,footer,section)
+inline-level = do not start on a new line . width is limited when it needed
+(span,a,img)
