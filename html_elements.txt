@@ -7,3 +7,5 @@
 7.css gradiant
 8.glass morphism
 9.lottifies animation
+10.swiper js
+11.chart.js

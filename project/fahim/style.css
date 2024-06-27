@@ -1,0 +1,243 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#header #row1
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid; */
+    padding: 0 185px;
+}
+
+#header #row2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 185px;
+    /* border: solid; */
+    height: 55px;
+    align-content: center;
+    background-color: #dcdcdc;
+}
+#header #row2 #row21 a
+{
+    margin-right: 25px;
+    color: black;
+}
+#header #row2 #row21 a:hover
+{
+    color: red;
+}
+
+
+#section
+{
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#section #parent1
+{
+    height: 450px;
+    width: 59%;
+    /* border: solid; */
+}
+#section #parent2
+{
+    /* border: solid; */
+    height: 621px;
+    width: 354px;
+    margin-right: 185px;
+}
+#section #parent1 #parent11
+{
+    /* width: 100%; */
+    height: 100%;
+    /* border: solid blue; */
+}
+#section #parent1 #parent11 #parent111
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid; */
+    padding: 0 185px;
+}
+#section #parent1 #parent11 #parent111 img
+{
+    height: 34px;
+    width: 30px;
+}
+#section #parent1 #parent11 #parent111 p
+{
+    align-self: center;
+}
+#section #parent1 #parent11 #parent111 #p1
+{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: solid red;
+    background-color: red;
+    margin: 0 7px;
+}
+#section #parent1 #parent11 #parent111 #p2
+{
+    color: red;
+    font-size: 20px;
+}
+/* bro */
+#section #parent1 #parent11 #parent112
+{
+    height: 350px;
+    width: 77%;
+    border: solid;
+    margin: 0 185px;
+    margin-top: 10px;
+}
+#section #parent2 h1
+{
+    text-align: center;
+    border: solid blueviolet;
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+#section #parent2 #sorbosesh
+{
+    /* border: solid red; */
+    height: 540px;
+    display: block;
+    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+    left: 4px;
+}
+#section #parent2 #sorbosesh_child
+{
+    width: 348px;
+    height: 124px;
+    border: solid;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    border-radius: 3px 3px;
+}
+#section #parent2 #sorbosesh_child #first
+{
+    border: solid blue;
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+}
+#section #parent2 #sorbosesh_child #second
+{
+    /* border: solid blueviolet; */
+    width: 60%;
+    margin-left: 15px;
+}
+#section #parent2 #sorbosesh_child #second h5
+{
+    background-color: pink;
+    width: 50px;
+    text-align: center;
+    height: 20px;
+}
+#section #parent2 #sorbosesh_child #second a
+{
+    color: black;
+}
+#section #parent2 #sorbosesh_child #second a:hover
+{
+    color: red;
+}
+
+
+#footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid sienna; */
+    align-items: center;
+    padding: 0 185px;
+}
+/* #footer #last a img
+{
+    border: solid;
+} */
+#footer #last marquee
+{
+    /* border: solid; */
+    width: 67vw;
+    justify-self: center;
+    position: relative;
+    bottom: 15px;
+}
+#footer1 #last1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #dcdcdc;
+    height: 500px;
+    align-content: center;
+    /* border: solid; */
+}
+#footer1 #last1 #last11 a img
+{
+    margin: 0 185px;
+    height: 200px;
+    width: 200px;
+    /* border: solid; */
+}
+#footer1 #last1 #last12 h1
+{
+    margin-bottom: 20px;
+}
+#footer1 #last1 #last12
+{
+    /* border: solid red; */
+    height: 200px;
+    width: 40%;
+    position: relative;
+    top: 40px;
+    right: 150px;
+
+}
+#footer1 #last1 #last12 p:nth-child(3),:nth-child(4)
+{
+    margin-top: 5px;
+}
+#footer1 #last1 #last12 p a
+{
+    text-decoration: underline;
+    color: black;
+}
+#footer1 #last1 #last13
+{
+    position: relative;
+    bottom: 98px;
+    left: 1000px;
+}
+#footer1 #last1 #last13 p:nth-child(3),
+#footer1 #last1 #last13 p:nth-child(4)
+{
+    margin-top: 5px;
+}
