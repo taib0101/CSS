@@ -9,3 +9,4 @@
 9.lottifies animation
 10.swiper js
 11.chart.js
+12.svg generator
